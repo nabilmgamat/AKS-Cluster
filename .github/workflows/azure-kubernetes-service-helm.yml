@@ -40,10 +40,10 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_CONTAINER_REGISTRY: "your-azure-container-registry"
-  CONTAINER_NAME: "your-container-name"
+  AZURE_CONTAINER_REGISTRY: "nabil"
+  CONTAINER_NAME: "dev-aks-dns-3o7g3mgl.hcp.francecentral.azmk8s.io"
   RESOURCE_GROUP: "nabilmgamat"
-  CLUSTER_NAME: "your-cluster-name"
+  CLUSTER_NAME: "dev-aks"
   CHART_PATH: "your-chart-path"
   CHART_OVERRIDE_PATH: "your-chart-override-path"
 
